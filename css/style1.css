@@ -1,0 +1,39 @@
+/*------------------FUENTES------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Roboto:ital,wght@1,100&display=swap');
+/*------------------RESETEO------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------------BODY------------------*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*------------------NAV------------------*/
+.nav__logo{
+    height: 45px;
+}
+/*------------------MAIN------------------*/
+.card:hover{
+    box-shadow: 1px 1px 15px grey;
+}
+/*------------------FOOTER------------------*/
+.footer{
+    height: 10vh;
+}
+.footer__logo{
+    width: 30px;
+    height: auto;
+}
+/*------------------MEDIAQUERIES------------------*/
+@media screen and (max-width: 576px){
+    /*-------------footermedia-------------*/
+    .footer__numero{
+        margin:15px;
+    }
+    /*-------------mainmedia-------------*/
+    .card{
+        margin:10px;
+    }
+}
