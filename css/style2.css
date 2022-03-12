@@ -31,7 +31,7 @@ body{
     height: 100%;
     object-fit: cover;
     transition: all 0.4s;
-    box-shadow: 1px 1px 10px grey;
+    box-shadow: 1px 1px 15px rgb(209, 204, 204);
 }
 .galeria__fotos:hover{
     transform: scale(1.1);
@@ -70,6 +70,9 @@ body{
 .footer__logo{
     width: 30px;
     height: auto;
+}
+.footer__logo:hover{
+    transform: scale(1.1);
 }
 /*------------------MEDIAQUERIES------------------*/
 @media screen and (max-width: 576px) {

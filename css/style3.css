@@ -17,11 +17,11 @@ body{
 /*------------------MAIN------------------*/
 .main__img{
     width: 100%;
-    box-shadow: 1px 1px 20px grey;
+    box-shadow: 1px 1px 20px rgb(209, 204, 204);
     transition: all 0.4s;
 }
 .main__img:hover{
-    box-shadow: 1px 1px 20px black;
+    box-shadow: 1px 1px 20px rgb(134, 131, 131);
 }
 /*------------------FOOTER------------------*/
 .footer{
@@ -30,6 +30,9 @@ body{
 .footer__logo{
     width: 30px;
     height: auto;
+}
+.footer__logo:hover{
+    transform: scale(1.1);
 }
 /*------------------MEDIAQUERIES------------------*/
 @media screen and (max-width: 576px){

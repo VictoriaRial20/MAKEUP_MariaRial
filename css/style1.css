@@ -16,7 +16,7 @@ body{
 }
 /*------------------MAIN------------------*/
 .card:hover{
-    box-shadow: 1px 1px 15px grey;
+    box-shadow: 1px 1px 15px rgb(209, 204, 204);
 }
 /*------------------FOOTER------------------*/
 .footer{
@@ -25,6 +25,9 @@ body{
 .footer__logo{
     width: 30px;
     height: auto;
+}
+.footer__logo:hover{
+    transform: scale(1.1);
 }
 /*------------------MEDIAQUERIES------------------*/
 @media screen and (max-width: 576px){
