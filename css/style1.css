@@ -19,7 +19,10 @@ body{
 }
 /*------------------MAIN------------------*/
 .card:hover{
-    box-shadow: 1px 1px 15px rgb(209, 204, 204);
+    box-shadow: 1px 1px 15px rgb(224, 214, 214);
+}
+.btn:hover{
+    box-shadow: 1px 1px 10px rgb(136, 132, 132);
 }
 /*------------------FOOTER------------------*/
 .footer{
