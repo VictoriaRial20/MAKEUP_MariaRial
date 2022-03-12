@@ -14,6 +14,9 @@ body{
 .nav__logo{
     height: 45px;
 }
+.nav__logo:hover{
+    transform: scale(1.1);
+}
 /*------------------MAIN------------------*/
 .main__img{
     width: 100%;
