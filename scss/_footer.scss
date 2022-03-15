@@ -1,0 +1,10 @@
+.footer{
+    height: 10vh;
+    .footer__logo{
+        width: 30px;
+        height: auto;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}

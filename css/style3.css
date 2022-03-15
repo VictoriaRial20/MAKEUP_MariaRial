@@ -18,12 +18,12 @@ body{
     transform: scale(1.1);
 }
 /*------------------MAIN------------------*/
-.main__img{
+.main__imgh{
     width: 100%;
     box-shadow: 1px 1px 20px rgb(209, 204, 204);
     transition: all 0.4s;
 }
-.main__img:hover{
+.main__imgh:hover{
     box-shadow: 1px 1px 20px rgb(134, 131, 131);
 }
 /*------------------FOOTER------------------*/
