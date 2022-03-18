@@ -88,6 +88,9 @@ body {
     height: auto; }
     .footer .footer__logo:hover {
       transform: scale(1.1); }
+  .footer .footer__logo2 {
+    width: 14px;
+    height: auto; }
   .footer .footer__elementos {
     font-size: 14px; }
   .footer .footer__elementos2 {
