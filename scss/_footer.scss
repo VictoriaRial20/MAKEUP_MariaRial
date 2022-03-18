@@ -1,10 +1,32 @@
 .footer{
     height: 10vh;
     .footer__logo{
-        width: 30px;
+        width: 20px;
         height: auto;
         &:hover{
             transform: scale(1.1);
         }
+    }
+    .footer__elementos{
+        font-size: 14px;
+    }
+    .footer__elementos2{
+        font-size: 12px;
+    }
+    .footer__links{
+        color: black;
+        text-decoration: none;
+        &:hover{
+            color:coral;
+        }
+    }
+    .footer_boton{
+        &:hover{
+        box-shadow: 1px 1px 10px rgb(136, 132, 132);
+        }
+    }
+    .footer__pagos{
+        width: 40px;
+        height: auto;
     }
 }

@@ -84,10 +84,24 @@ body {
 .footer {
   height: 10vh; }
   .footer .footer__logo {
-    width: 30px;
+    width: 20px;
     height: auto; }
     .footer .footer__logo:hover {
       transform: scale(1.1); }
+  .footer .footer__elementos {
+    font-size: 14px; }
+  .footer .footer__elementos2 {
+    font-size: 12px; }
+  .footer .footer__links {
+    color: black;
+    text-decoration: none; }
+    .footer .footer__links:hover {
+      color: coral; }
+  .footer .footer_boton:hover {
+    box-shadow: 1px 1px 10px #888484; }
+  .footer .footer__pagos {
+    width: 40px;
+    height: auto; }
 
 /*------------------MEDIAQUERIES------------------*/
 @media screen and (max-width: 576px) {
