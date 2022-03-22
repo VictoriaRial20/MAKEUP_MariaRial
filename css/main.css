@@ -75,10 +75,7 @@ body {
 /*------------------MAIN-style3-SOBRENOS-----------------*/
 .main__imgh {
   width: 100%;
-  box-shadow: 1px 1px 20px #d1cccc;
-  transition: all 0.4s; }
-  .main__imgh:hover {
-    box-shadow: 1px 1px 20px #868383; }
+  height: auto; }
 
 /*------------------FOOTER------------------*/
 .footer {
