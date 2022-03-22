@@ -1,5 +1,5 @@
 /*------------------FUENTES------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Roboto:ital,wght@1,100&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap");
 /*------------------BASEGENERAL------------------*/
 /*------------------RESETEO------------------*/
 * {
@@ -12,21 +12,39 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 /*------------------NAV------------------*/
-.nav__logo {
-  height: 45px; }
-  .nav__logo:hover {
-    transform: scale(1.1); }
+.nav {
+  font-family: 'Titillium Web', sans-serif; }
+  .nav .nav__logo {
+    height: 45px; }
+    .nav .nav__logo:hover {
+      transform: scale(1.1); }
 
 /*------------------MAINstyleINICIO------------------*/
-.mainCarrusel {
+.main__carrusel {
   height: auto; }
+  .main__carrusel .main__redireccion {
+    position: relative; }
+    .main__carrusel .main__redireccion:hover {
+      transform: scale(1.1);
+      filter: brightness(0.7); }
+    .main__carrusel .main__redireccion .main__caption {
+      position: absolute;
+      top: 45%;
+      left: 0;
+      width: 100%; }
+      .main__carrusel .main__redireccion .main__caption .main__captiontexto {
+        text-decoration: none;
+        color: white;
+        font-size: 37px;
+        font-family: 'Titillium Web', sans-serif; }
 
 /*------------------MAIN-style-1CURSOS------------------*/
-.card:hover {
-  box-shadow: 1px 1px 15px #e0d6d6; }
-
-.btn:hover {
-  box-shadow: 1px 1px 10px #888484; }
+.main__cursos {
+  font-family: 'Titillium Web', sans-serif; }
+  .main__cursos .card:hover {
+    box-shadow: 1px 1px 15px #e0d6d6; }
+  .main__cursos .btn:hover {
+    box-shadow: 1px 1px 10px #888484; }
 
 /*------------------MAIN-style2-MAQUILLAJES-----------------*/
 .galeria {
@@ -73,13 +91,20 @@ body {
   grid-area: foto9; }
 
 /*------------------MAIN-style3-SOBRENOS-----------------*/
-.main__imgh {
-  width: 100%;
-  height: auto; }
+.main__sobrenos {
+  font-family: 'Titillium Web', sans-serif; }
+  .main__sobrenos .main__imgh {
+    width: 100%;
+    height: auto; }
+
+/*------------------MAIN-style4-CONTACTO-----------------*/
+.main__formulario {
+  font-family: 'Titillium Web', sans-serif; }
 
 /*------------------FOOTER------------------*/
 .footer {
-  height: 10vh; }
+  height: 10vh;
+  font-family: 'Titillium Web', sans-serif; }
   .footer .footer__logo {
     width: 20px;
     height: auto; }
