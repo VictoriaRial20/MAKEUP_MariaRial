@@ -24,20 +24,15 @@ body {
   height: auto;
   width: 100%; }
   .main__carrusel .main__redireccion {
-    position: relative;
-    /*
-        .main__imggris{
-            width: 100%; 
-            position: absolute; 
-            top: 0%; 
-            background-color: rgba($color: #000000, $alpha: 0);
-            &:hover{
-                background-color: rgba($color: #000000, $alpha: 0.4);
-            }
-        }*/ }
+    position: relative; }
+    .main__carrusel .main__redireccion .main__imgopacidad {
+      filter: brightness(0.9); }
+      .main__carrusel .main__redireccion .main__imgopacidad:hover {
+        filter: brightness(0.6);
+        transform: scale(1.05); }
     .main__carrusel .main__redireccion .main__caption {
       position: absolute;
-      top: 45%;
+      top: 38%;
       left: 0;
       width: 100%; }
       .main__carrusel .main__redireccion .main__caption .main__captiontexto {
@@ -45,6 +40,11 @@ body {
         color: white;
         font-size: 35px;
         font-family: 'Titillium Web', sans-serif; }
+      .main__carrusel .main__redireccion .main__caption .main__botonindex {
+        background-color: rgba(0, 0, 0, 0);
+        color: white; }
+        .main__carrusel .main__redireccion .main__caption .main__botonindex:hover {
+          background-color: rgba(0, 0, 0, 0.5); }
 
 /*------------------MAIN-style-1CURSOS------------------*/
 .main__cursos {
