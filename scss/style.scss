@@ -73,7 +73,7 @@
         transition: all 0.4s;
         box-shadow: 1px 1px 15px rgb(209, 204, 204);
         &:hover{
-            transform: scale(1.1);
+            transform: scale(1.07);
         }
     }
 }
@@ -126,13 +126,9 @@
 @import "_footer";
 /*------------------MEDIAQUERIES------------------*/
 @media screen and (max-width: 576px){
-    /*-------------footermedia-------------*/
-    .footer__numero{
-        margin:15px;
-    }
-    /*-------------mainINICIOrmedia-------------*/
+    /*-------------mainrmediaInicio-------------*/
     .main__captiontexto{
-        font-size: 10px;
+        font-size: 0px;
     }
     /*-------------mainmediastyle1-------------*/
     .card{
