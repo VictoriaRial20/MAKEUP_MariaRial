@@ -7,12 +7,25 @@
 /*------------------MAINstyleINICIO------------------*/
 .main__carrusel{
     height: auto;
+    width: 100%;
     .main__redireccion{ 
         position: relative; 
-        &:hover{
-            transform: scale(1.1);
-            filter: brightness(0.7);
-        }
+        /*
+        .main__imggris{
+            width: 100%; 
+            position: absolute; 
+            top: 0%; 
+            background-color: rgba($color: #000000, $alpha: 0);
+            &:hover{
+                background-color: rgba($color: #000000, $alpha: 0.4);
+            }
+        }*/
+        /*
+        .main__imgopacidad{
+            &:hover{
+                
+            }
+        }*/
         .main__caption { 
             position: absolute; 
             top: 45%; 
@@ -21,7 +34,7 @@
             .main__captiontexto{
                 text-decoration: none;
                 color: white;
-                font-size: 37px;
+                font-size: 35px;
                 font-family: 'Titillium Web', sans-serif;
             }
            }
@@ -30,15 +43,21 @@
 /*------------------MAIN-style-1CURSOS------------------*/
 .main__cursos{
     font-family: 'Titillium Web', sans-serif;
-    .card:hover{
+    .card{
+        &:hover{
         box-shadow: 1px 1px 15px rgb(224, 214, 214);
+        }
     }
-    .btn:hover{
+    .btn{
+        &:hover{
         box-shadow: 1px 1px 10px rgb(136, 132, 132);
+        }
     }
 }
-
 /*------------------MAIN-style2-MAQUILLAJES-----------------*/
+.main__titulo {
+    font-family: 'Titillium Web', sans-serif;
+}
 .galeria{
     display: grid;
     height: auto;
@@ -98,6 +117,12 @@
 /*------------------MAIN-style4-CONTACTO-----------------*/
 .main__formulario{
     font-family: 'Titillium Web', sans-serif;
+    .main__enviar{
+        box-shadow: 1px 1px 15px rgb(197, 191, 191);
+        &:hover{
+            box-shadow: 1px 1px 15px rgb(122, 119, 119);
+        }
+    }
 }
 /*------------------FOOTER------------------*/
 @import "_footer";
@@ -106,6 +131,10 @@
     /*-------------footermedia-------------*/
     .footer__numero{
         margin:15px;
+    }
+    /*-------------mainINICIOrmedia-------------*/
+    .main__captiontexto{
+        font-size: 10px;
     }
     /*-------------mainmediastyle1-------------*/
     .card{
