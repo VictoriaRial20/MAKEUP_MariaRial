@@ -38,17 +38,19 @@
            }
        } 
 }
-/*------------------MAIN-style-1CURSOS------------------*/
-.main__cursos{
+/*------------------MAIN-style-1SERVICIOS------------------*/
+.main__info{
+    background-color: #f7e0d7;
+    width: 100%;
+    height: auto;
     font-family: 'Titillium Web', sans-serif;
-    .card{
+    .main__botonreservar{
+        text-decoration: none;
+        color: black;
+        background-color:#f7e0d7;
         &:hover{
-        box-shadow: 1px 1px 15px rgb(224, 214, 214);
-        }
-    }
-    .btn{
-        &:hover{
-        box-shadow: 1px 1px 10px rgb(136, 132, 132);
+            background-color: black;
+            color: #f7e0d7;
         }
     }
 }

@@ -9,7 +9,7 @@
 
 /*------------------BODY------------------*/
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Titillium Web', sans-serif; }
 
 /*------------------NAV------------------*/
 .nav {
@@ -46,13 +46,19 @@ body {
         .main__carrusel .main__redireccion .main__caption .main__botonindex:hover {
           background-color: rgba(0, 0, 0, 0.5); }
 
-/*------------------MAIN-style-1CURSOS------------------*/
-.main__cursos {
+/*------------------MAIN-style-1SERVICIOS------------------*/
+.main__info {
+  background-color: #f7e0d7;
+  width: 100%;
+  height: auto;
   font-family: 'Titillium Web', sans-serif; }
-  .main__cursos .card:hover {
-    box-shadow: 1px 1px 15px #e0d6d6; }
-  .main__cursos .btn:hover {
-    box-shadow: 1px 1px 10px #888484; }
+  .main__info .main__botonreservar {
+    text-decoration: none;
+    color: black;
+    background-color: #f7e0d7; }
+    .main__info .main__botonreservar:hover {
+      background-color: black;
+      color: #f7e0d7; }
 
 /*------------------MAIN-style2-MAQUILLAJES-----------------*/
 .main__titulo {
@@ -145,9 +151,6 @@ body {
 
 /*------------------MEDIAQUERIES------------------*/
 @media screen and (max-width: 576px) {
-  /*-------------mainrmediaInicio-------------*/
-  .main__captiontexto {
-    font-size: 0px; }
   /*-------------mainmediastyle1-------------*/
   .card {
     margin: 10px; }
