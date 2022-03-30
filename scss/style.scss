@@ -64,9 +64,12 @@
     grid-template-areas: 
         "foto1 foto1 foto2 foto3 foto4"
         "foto1 foto1 foto5 foto6 foto6"
-        "foto7 foto8 foto9 foto6 foto6";
-    column-gap: 2rem;
-    row-gap: 2rem;
+        "foto7 foto8 foto9 foto6 foto6"
+        "foto10 foto10 foto12 foto13 foto14"
+        "foto10 foto10 foto11 foto15 foto15"
+        "foto16 foto17 foto18 foto15 foto15";
+    column-gap: 1rem;
+    row-gap: 1rem;
     margin: 20px 40px; 
     .galeria__fotos{
         width: 100%;
@@ -106,6 +109,33 @@
 #foto9{
     grid-area: foto9;
 }
+#foto10{
+    grid-area: foto10;
+}
+#foto11{
+    grid-area: foto11;
+}
+#foto12{
+    grid-area: foto12;
+}
+#foto13{
+    grid-area: foto13;
+}
+#foto14{
+    grid-area: foto14;
+}
+#foto15{
+    grid-area: foto15;
+}
+#foto16{
+    grid-area: foto16;
+}
+#foto17{
+    grid-area: foto17;
+}
+#foto18{
+    grid-area: foto18;
+}
 /*------------------MAIN-style3-SOBRENOS-----------------*/
 .main__sobrenos{
     font-family: 'Titillium Web', sans-serif;
@@ -117,6 +147,12 @@
 /*------------------MAIN-style4-CONTACTO-----------------*/
 .main__formulario{
     font-family: 'Titillium Web', sans-serif;
+    .main__itemsform{
+        &:hover{
+            box-shadow: 1px 1px 10px rgb(141, 137, 137);
+            transform: scale(1.05);
+        }
+    }
     .main__enviar{
         box-shadow: 1px 1px 15px rgb(197, 191, 191);
         &:hover{
@@ -137,10 +173,19 @@
         display: grid;
         grid-template-areas: 
             "foto1 foto2"
-            "foto3 foto4"
-            "foto5 foto6"
-            "foto7 foto8"
-            "foto9 .";
+            "foto3 foto3"
+            "foto3 foto3"
+            "foto4 foto5"
+            "foto6 foto7"
+            "foto8 foto8"
+            "foto8 foto8"
+            "foto9 foto18"
+            "foto11 foto12"
+            "foto13 foto13"
+            "foto14 foto15"
+            "foto16 foto17"
+            "foto10 foto10"
+            "foto10 foto10";
         column-gap: 0.5rem;
         row-gap: 0.5rem;
     }
